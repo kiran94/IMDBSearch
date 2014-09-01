@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Request Data TEST</title>
+	<title>Search Movie</title>
+
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
 
-	<h1>Enter the title of the movie</h1>
-	<form method="POST" action="recieve_request.php">
-		Title: <input type="text" name="title" />
-		<input type="submit" />
-	</form>
+	<div class="container">
+		<h1 class="title">Enter the Title</h1>
+
+		<form method="POST" action="recieve_request.php">
+			<input type="text" name="title" class="input_val" /><br/>
+			<input type="submit" class="input_but" />
+		</form>
+
+
+	</div>
+
+	
 
 </body>
 </html>
