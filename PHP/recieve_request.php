@@ -11,6 +11,13 @@
 	<!-- <div class="container"> -->
 
 		<?php
+			if(!isset($_POST['title']))
+			{
+				header('Location: index.php');
+
+			}
+
+
 			include 'request_process.php'; 
 		?>
 

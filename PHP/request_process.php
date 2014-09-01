@@ -44,11 +44,12 @@
 				echo "<br/>";
 				echo "<br/>";
 
-				echo "<a href='http://www.imdb.com/title/" . $jsonObj['imdbID'] . "'>More Information</a>"; 
+				echo "<a href='http://www.imdb.com/title/" . $jsonObj['imdbID'] . "'>More Information</a><br/>"; 
+				echo "<a href='index.php'>Back</a>"; 
 			echo "</div>";
 
 
-			echo "<div class='col-sm-4 hidden-xs'>";
+			echo "<div class='col-sm-7 hidden-xs'>";
 				echo "<img src=" . $jsonObj["Poster"] .  " alt='poster'  />"; 
 			echo "</div>";
 		echo "</div>"; 

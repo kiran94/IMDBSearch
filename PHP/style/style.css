@@ -1,5 +1,48 @@
+
+
 .plot
 {
 	font-size: 20px; 
 	color: grey;
+}
+
+.title
+{
+	text-align: center;
+	background-color: #333; 
+	/*border-radius: 15px; */
+	color: white;
+	font-size: 100px; 
+}
+
+.input_val
+{
+	font-size: 100px; 
+}
+
+
+
+input[type=submit] {
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+    height:200px;
+    font-family: Tahoma;
+    font-size: 4em;
+    background: #f4f4f4;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f4f4f4), color-stop(100%, #ededed));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #f4f4f4 1%, #ededed 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#ededed', GradientType=0);
+    /* IE6-9 */
 }
