@@ -14,10 +14,56 @@
 	#Parse into a JSON. 
 	$jsonObj = parseJSON($output); 
 
-	#Print Data. 
-	echo "<h1 class='title'>" . $jsonObj["Title"] . "</h1>"; 
+	echo "<div class='container'>"; 
 
-	echo "<img src=" . $jsonObj["Poster"] .  " alt='poster' width='147' height='237' />"
+		echo "<div class='row'>"; 
+				echo "<div class='col-sm-12'>";
+					echo "<h1 class='title'>" . $jsonObj["Title"] . "</h1>"; 
+				echo "</div>"; 
+		echo "</div>"; 
+
+		#Print Data. 
+		echo "<div class='row'>";
+
+			echo "<div class='col-sm-5'>";
+				echo "Released: " . $jsonObj["Released"] . "<br/>"; 
+				echo "Run Time: " . $jsonObj["Runtime"] . "<br/>"; 
+				echo "Genre: " . $jsonObj["Genre"] . "<br/>"; 
+				echo "Starring: " . $jsonObj["Actors"] . "<br/>"; 
+
+				echo "<br/>";
+				echo "<br/>";
+				echo "Director: " . $jsonObj["Director"] . "<br/>"; 
+				echo "Writers: " . $jsonObj["Writer"] . "<br/>"; 
+
+				echo "<br/>";
+				echo "<br/>";
+
+				echo "<div class='plot'>" . $jsonObj["Plot"] . "</div><br/>"; 
+
+				echo "<br/>";
+				echo "<br/>";
+
+				echo "<a href='http://www.imdb.com/title/" . $jsonObj['imdbID'] . "'>More Information</a>"; 
+			echo "</div>";
+
+
+			echo "<div class='col-sm-4 hidden-xs'>";
+				echo "<img src=" . $jsonObj["Poster"] .  " alt='poster'  />"; 
+			echo "</div>";
+		echo "</div>"; 
+
+	echo "</div>"; 
+
+	
+
+
+
+
+
+	
+
+	
 
 
 ?>
