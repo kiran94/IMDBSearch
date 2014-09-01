@@ -1,21 +1,18 @@
-<?php
-
-	include 'getData.php'; 
-
-	#Set the input 
-	$title = $_POST['title']; 
-	#$title = "True Grit";
-	#Replace spaces. 
-	$title = replaceSpace($title);
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
 
 
-	#Get the contents. 
-	$output = getData($title);
-	#Parse into a JSON. 
-	$jsonObj = parseJSON($output); 
+	<div class="container">
 
-	#Print Data. 
-	echo $jsonObj["Title"]; 
+		<?php
+		include 'request_process.php'; 
+		?>
 
+	</div>
 
-?>
+</body>
+</html>

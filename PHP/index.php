@@ -2,23 +2,29 @@
 <html>
 <head>
 	<title>Search Movie</title>
+	<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css" />
 
-	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="style/style.css"> -->
 </head>
 <body>
 
 	<div class="container">
-		<h1 class="title">Enter the Title</h1>
 
-		<form method="POST" action="recieve_request.php">
-			<input type="text" name="title" class="input_val" /><br/>
-			<input type="submit" class="input_but" />
-		</form>
+		<div class="col-xs-12">
+			<h1 class="title">Enter the Title</h1>
 
+			<form method="POST" action="recieve_request.php">
+				<input type="text" name="title" class="input_val" /><br/>
+				<input type="submit" class="input_but" />
+			</form>
+
+		</div>
+		
 
 	</div>
 
 	
-
+	<script TYPE="text/javascript" src="scripts/jquery.js"></script>
+	<script TYPE="text/javascript" src="scripts/bootstrap.min.js"></script>
 </body>
 </html>
