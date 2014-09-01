@@ -18,9 +18,14 @@
 				<input type="submit" class="input_but" />
 			</form>
 
-		</div>
-		
 
+			<hr/>
+			<div class="">
+				Developed by Kiran Patel <br/>
+				<a href='https://github.com/kiran94/IMDBSearch'>Github</a>
+			</div>
+
+		</div>
 	</div>
 
 	

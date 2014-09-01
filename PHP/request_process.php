@@ -16,8 +16,22 @@
 
 	echo "<div class='container'>"; 
 
+		if($jsonObj["Response"] == "False")
+		{
+			echo "<div class='container'>"; 
+			echo '<div class="alert alert-warning" role="alert">';
+		  	echo '<a href="#" class="alert-link">Could not find title!</a>';
+			echo '</div>';
+			echo "</div>"; 
+			
+			include "index.php"; 
+			exit();
+		}
+
+
+
 		echo "<div class='row'>"; 
-				echo "<div class='col-sm-12'>";
+				echo "<div class='col-xs-12'>";
 					echo "<h1 class='title'>" . $jsonObj["Title"] . "</h1>"; 
 				echo "</div>"; 
 		echo "</div>"; 
@@ -25,7 +39,7 @@
 		#Print Data. 
 		echo "<div class='row'>";
 
-			echo "<div class='col-sm-5'>";
+			echo "<div class='col-xs-7'>";
 				echo "Released: " . $jsonObj["Released"] . "<br/>"; 
 				echo "Run Time: " . $jsonObj["Runtime"] . "<br/>"; 
 				echo "Genre: " . $jsonObj["Genre"] . "<br/>"; 
@@ -49,7 +63,7 @@
 			echo "</div>";
 
 
-			echo "<div class='col-sm-7 hidden-xs'>";
+			echo "<div class='col-xs-5 hidden-xs'>";
 				echo "<img src=" . $jsonObj["Poster"] .  " alt='poster'  />"; 
 			echo "</div>";
 		echo "</div>"; 
