@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Search Movie | Kiran's Projects</title>
+
+	<!-- META -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	
+	<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<div class='row'>
+			<div class='col-xs-12'>
+				<h1 id="title">Enter the Title</h1>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class='col-xs-12'>
+				
+			<form method="POST" action="recieve_request.php">
+				<input type="text" name="title" class="input_val" /> <br/><br/>
+				<input type="submit" class="input_but" />
+			</form>
+
+			</div>
+		</div>
+
+		<hr/>
+
+		<div class='row'>
+			<div class='col-xs-12'>
+				Developed by Kiran Patel <br/>
+				<a href='https://github.com/kiran94/IMDBSearch'>Github</a>
+
+			</div>
+		</div>
+
+	<!-- END CONTAINER -->
+	</div>
+
+	
+	<script TYPE="text/javascript" src="scripts/jquery.js"></script>
+	<script TYPE="text/javascript" src="scripts/bootstrap.min.js"></script>
+</body>
+</html>
