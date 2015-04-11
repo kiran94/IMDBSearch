@@ -19,12 +19,16 @@
 </head>
 <body>
 		<?php
+			//If title has not been posted, go back to index. 
 			if(!isset($_POST['title']))
 			{
 				header('Location: index.php');
-
 			}
-			include 'request_process.php'; 
+			else
+			{
+				//Else show data. 
+				include 'request_process.php'; 
+			}
 		?>
 </body>
 </html>
