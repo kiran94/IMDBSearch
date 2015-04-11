@@ -4,9 +4,9 @@
 	<title>Search Movie | Kiran's Projects</title>
 
 	<!-- meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<!-- end meta -->
 	
 	<!-- dev -->
@@ -35,8 +35,8 @@
 			<div class='col-xs-12'>
 				
 			<form method="POST" action="recieve_request.php">
-				<input type="text" name="title" class="input_val" /> <br/><br/>
-				<input type="submit" class="input_but" />
+				<input type="text" name="title" id="input_val" /> <br/><br/>
+				<input type="submit" id="input_but" />
 			</form>
 
 			</div>

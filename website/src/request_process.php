@@ -50,7 +50,7 @@
 					if($keys[$currentKey] == "Plot")
 					{	
 						//Print plot without key. 
-						echo "<div class='plot'>" . $data->getField("Plot") . "</div><br/>"; 
+						echo "<div id='plot'>" . $data->getField("Plot") . "</div><br/>"; 
 					}
 					else
 					{	
