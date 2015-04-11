@@ -7,5 +7,5 @@ The database is owned and maintained by him and I take no claim of ownership of 
 
 The project at the moment has a simple python program that retrieves data through the console with key words such as "Iron Man" or any other movie title. The program then retrieves a JSON file to display the data. 
 
-I also plan to create a web application which does a similar thing in a more user friendly manner.  
+The project also has a web application that does a similiar task. 
 
