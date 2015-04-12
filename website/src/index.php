@@ -33,12 +33,30 @@
 		<!-- input -->
 		<div class='row'>
 			<div class='col-xs-12'>
-				
-			<form method="POST" action="recieve_request.php">
-				<input type="text" name="title" id="input_val" /> <br/><br/>
-				<input type="submit" id="input_but" />
-			</form>
 
+				<input type="text" name="title" id="input_val" /> <br/><br/>
+				<a href="#" class="btn form-control btn-default" id="input_but">Submit</a>
+
+			</div>
+		</div>
+		<!-- end input -->
+
+		<hr/>
+
+		<!-- input -->
+		<div class='row'>
+			<div class='col-xs-12'>
+
+				<div id="result">
+
+					<h3 id="title_results"></h3>
+
+					<p id="contents"></p>
+
+					<img src="" alt="poster" class="img-responsive" id="poster"/>
+
+
+				</div>
 			</div>
 		</div>
 		<!-- end input -->
@@ -60,6 +78,7 @@
 	<!-- scripts -->
 	<script TYPE="text/javascript" src="scripts/jquery.min.js"></script>
 	<script TYPE="text/javascript" src="scripts/bootstrap.min.js"></script>
+	<script type="text/javascript" src="scripts/requestData.js"></script>
 	<!-- end scripts -->
 </body>
 </html>
