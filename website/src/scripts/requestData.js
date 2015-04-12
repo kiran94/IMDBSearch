@@ -16,6 +16,8 @@ $(document).ready(function()
 				//If successful response. 
 				if(data.Response == "True")
 				{
+					$("#result").css("display", "block");
+
 					//Set json title to html. 
 					$("#title_results").html(data["Title"]); 
 

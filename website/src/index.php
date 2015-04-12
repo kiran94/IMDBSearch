@@ -55,20 +55,20 @@
 
 					<img src="" alt="poster" class="img-responsive" id="poster"/>
 
-
+					<hr/>
 				</div>
 			</div>
 		</div>
 		<!-- end input -->
 
-		<hr/>
+		
 
 		<!-- footer -->
 		<div class='row'>
 			<div class='col-xs-12'>
 				Developed by Kiran Patel <br/>
-				<a href='https://github.com/kiran94/IMDBSearch'>Github</a>
-
+				<a href='https://github.com/kiran94/IMDBSearch'>Github</a><br/>
+				<a href="http://www.omdbapi.com/">API By Brain Fritz</a>
 			</div>
 		</div>
 		<!-- end footer -->

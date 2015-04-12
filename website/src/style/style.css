@@ -42,5 +42,10 @@ body
     margin-left: auto; 
 }
 
+#result
+{
+    display: none; 
+}
+
 
 
