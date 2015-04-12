@@ -9,3 +9,5 @@ The project at the moment has a simple python program that retrieves data throug
 
 The project also has a web application that does a similiar task. 
 
+Version 1.0 branched to begin development on 2.0 
+
