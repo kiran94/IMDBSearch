@@ -6,6 +6,8 @@ $(document).ready(function()
 		//Get the value of the input. 
 		var title = $("#input_val").val();
 		var img = "";
+		$("#result").css("display", "block");
+		$("#loading").css("display", "block"); 
 
 		//Run AJAX commands.
 		$.ajax({
@@ -13,11 +15,10 @@ $(document).ready(function()
 			url: "http://www.omdbapi.com/?t=" + title + "&plot=full",
 			success: function(data)
 			{
+				$("#loading").css("display", "none"); 
 				//If successful response. 
 				if(data.Response == "True")
 				{
-					$("#result").css("display", "block");
-
 					//Set json title to html. 
 					$("#title_results").html(data["Title"]); 
 
@@ -49,7 +50,7 @@ $(document).ready(function()
 					//Get poster link. 
 					img = data["Poster"];
 					//Set attribute src to image link.  
-					$("#poster").attr("src", img);
+					$("#posterpic").attr("src", img);
 
 
 

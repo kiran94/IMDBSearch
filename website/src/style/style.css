@@ -35,7 +35,7 @@ body
     color: grey;
 }
 
-#poster
+.poster
 {
     display: block; 
     margin-right: auto; 

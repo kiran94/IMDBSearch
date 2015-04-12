@@ -49,11 +49,15 @@
 
 				<div id="result">
 
+					<img src="http://www.mytreedb.com/uploads/mytreedb/loader/ajax_loader_red_512.gif" id="loading" width="200" height="200" class="poster"/>
+
 					<h3 id="title_results"></h3>
 
 					<p id="contents"></p>
 
-					<img src="" alt="poster" class="img-responsive" id="poster"/>
+				
+
+					<img src="" alt="poster" class="img-responsive poster" id="posterpic"/>
 
 					<hr/>
 				</div>
