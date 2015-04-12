@@ -10,7 +10,7 @@ $(document).ready(function()
 		//Run AJAX commands.
 		$.ajax({
 			type: "GET", 
-			url: "http://www.omdbapi.com/?t=" + title,
+			url: "http://www.omdbapi.com/?t=" + title + "&plot=full",
 			success: function(data)
 			{
 				//If successful response. 
@@ -48,6 +48,13 @@ $(document).ready(function()
 					img = data["Poster"];
 					//Set attribute src to image link.  
 					$("#poster").attr("src", img);
+
+
+
+				    $('html, body').animate(
+				    {
+				    	scrollTop: $("#result").offset().top 
+				    }, 500);
 				}
 				else
 				{
